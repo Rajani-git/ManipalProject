@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.medium.ELTC_18_editPWDtest">
+      <class name="com.training.medium.ELTC_020_adminNewUserTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
           <include name="setUpBeforeClass"/>
           <include name="testMethod1" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.training.medium.ELTC_18_editPWDtest -->
+      </class> <!-- com.training.medium.ELTC_020_adminNewUserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

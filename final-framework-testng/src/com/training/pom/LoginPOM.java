@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class LoginPOM {
 	private WebDriver driver; 
@@ -34,5 +35,8 @@ public class LoginPOM {
 	
 	public void clickLoginBtn() {
 		this.loginBtn.click(); 
+		Assert.assertTrue("User logged in successfully".contains("successfully"));
+		System.out.println("User Logged in As "+userName);
+		
 	}
 }

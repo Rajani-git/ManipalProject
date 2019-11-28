@@ -3,6 +3,7 @@ package com.training.high;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
@@ -50,9 +51,9 @@ public class ELTC_017_adminLogintest {
 	
 	@AfterMethod
 	public void tearDown() throws Exception {
-		Thread.sleep(1000);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.quit();
-	}
+		}
 	
 	
 	@Test(dataProvider="inputs")
