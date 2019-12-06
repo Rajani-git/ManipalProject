@@ -2,69 +2,74 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="87481" started-at="2019-12-04T20:13:03 IST" finished-at="2019-12-04T20:14:30 IST">
+  <suite name="Default suite" duration-ms="56580" started-at="2019-12-06T13:32:59 IST" finished-at="2019-12-06T13:33:55 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="87481" started-at="2019-12-04T20:13:03 IST" finished-at="2019-12-04T20:14:30 IST">
-      <class name="com.training.medium.ELTC_046_TaskAssigProject">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.medium.ELTC_046_TaskAssigProject@cd2dae5]" name="setUpBeforeClass" is-config="true" duration-ms="12" started-at="2019-12-04T20:13:03 IST" finished-at="2019-12-04T20:13:03 IST">
+    <test name="Default test" duration-ms="56580" started-at="2019-12-06T13:32:59 IST" finished-at="2019-12-06T13:33:55 IST">
+      <class name="com.training.high.testcases.ELTC_076TeacherRegistration">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.high.testcases.ELTC_076TeacherRegistration@cd2dae5]" name="setUpBeforeClass" is-config="true" duration-ms="12" started-at="2019-12-06T13:32:59 IST" finished-at="2019-12-06T13:32:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.medium.ELTC_046_TaskAssigProject@cd2dae5]" name="setUp" is-config="true" duration-ms="16426" started-at="2019-12-04T20:13:03 IST" finished-at="2019-12-04T20:13:19 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.high.testcases.ELTC_076TeacherRegistration@cd2dae5]" name="setUp" is-config="true" duration-ms="14049" started-at="2019-12-06T13:32:59 IST" finished-at="2019-12-06T13:33:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testMethod1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.medium.ELTC_046_TaskAssigProject@cd2dae5]" name="testMethod1" duration-ms="70983" started-at="2019-12-04T20:13:19 IST" data-provider="inputs" finished-at="2019-12-04T20:14:30 IST">
+        <test-method status="FAIL" signature="testMethod1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.high.testcases.ELTC_076TeacherRegistration@cd2dae5]" name="testMethod1" duration-ms="42479" started-at="2019-12-06T13:33:13 IST" data-provider="inputs" finished-at="2019-12-06T13:33:55 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[rajan]]>
+                <![CDATA[teacher]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[rajan@123]]>
+                <![CDATA[teacher@123]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[WebDriver]]>
+                <![CDATA[rajani.pappu@gmail.com]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Sub-WebDriver]]>
+                <![CDATA[reema]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[I have enrolled your course]]>
+                <![CDATA[reema123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[782323322]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='cm-content']/div/div[2]/div/div/div/div[1]/form/div/input"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'selected active')]"}
   (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-PTL0058', ip: '9.199.33.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'DESKTOP-PTL0058', ip: '9.85.80.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\RAJANI~1\AppData\Local\Temp\scoped_dir11112_1390946672}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:52084}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 721f5a8c1f9dbf59dd2e65a3a7cca13d
-*** Element info: {Using=xpath, value=//*[@id='cm-content']/div/div[2]/div/div/div/div[1]/form/div/input}]]>
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\RAJANI~1\AppData\Local\Temp\scoped_dir21256_749463866}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:59103}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 6b0a8bb74623353bca5c339f67f95b0f
+*** Element info: {Using=xpath, value=//a[contains(@class,'selected active')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='cm-content']/div/div[2]/div/div/div/div[1]/form/div/input"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'selected active')]"}
   (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-PTL0058', ip: '9.199.33.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'DESKTOP-PTL0058', ip: '9.85.80.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\RAJANI~1\AppData\Local\Temp\scoped_dir11112_1390946672}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:52084}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
-Session ID: 721f5a8c1f9dbf59dd2e65a3a7cca13d
-*** Element info: {Using=xpath, value=//*[@id='cm-content']/div/div[2]/div/div/div/div[1]/form/div/input}
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\RAJANI~1\AppData\Local\Temp\scoped_dir21256_749463866}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:59103}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 6b0a8bb74623353bca5c339f67f95b0f
+*** Element info: {Using=xpath, value=//a[contains(@class,'selected active')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -81,9 +86,9 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy11.clear(Unknown Source)
-at com.training.medium.ForumPOM.SearchCourse(ForumPOM.java:78)
-at com.training.medium.ELTC_046_TaskAssigProject.testMethod1(ELTC_046_TaskAssigProject.java:81)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at com.training.high.testcases.TeacherRegistrationPOM.Languageselect(TeacherRegistrationPOM.java:120)
+at com.training.high.testcases.ELTC_076TeacherRegistration.testMethod1(ELTC_076TeacherRegistration.java:80)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -118,11 +123,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.medium.ELTC_046_TaskAssigProject@cd2dae5]" name="tearDown" is-config="true" duration-ms="7" started-at="2019-12-04T20:14:30 IST" finished-at="2019-12-04T20:14:30 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.high.testcases.ELTC_076TeacherRegistration@cd2dae5]" name="tearDown" is-config="true" duration-ms="5" started-at="2019-12-06T13:33:55 IST" finished-at="2019-12-06T13:33:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.medium.ELTC_046_TaskAssigProject -->
+      </class> <!-- com.training.high.testcases.ELTC_076TeacherRegistration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

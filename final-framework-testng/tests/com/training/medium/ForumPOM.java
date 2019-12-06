@@ -8,8 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 public class ForumPOM {
-	private static final CharSequence ThreadName = null;
-	private static final CharSequence Threaddetails = null;
 	private WebDriver driver;
 	public ForumPOM(WebDriver driver) {
 		this.driver = driver; 

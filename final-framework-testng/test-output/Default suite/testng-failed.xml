@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.medium.ELTC_046_TaskAssigProject">
+      <class name="com.training.high.testcases.ELTC_076TeacherRegistration">
         <methods>
           <include name="testMethod1" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
           <include name="setUpBeforeClass"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.training.medium.ELTC_046_TaskAssigProject -->
+      </class> <!-- com.training.high.testcases.ELTC_076TeacherRegistration -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -85,21 +85,12 @@ public class ELTC_044Forum {
 		ForumPOM.titleText(text);
 		ForumPOM.switchtoPOM();
 		ForumPOM.SubmitThread();
-		//ForumPOM.replytomsg();
 		ForumPOM.replyMsgTitle(replytxt);
 		ForumPOM.switchFrame1();
 	    ForumPOM.replyMsg(replytt);
 	    ForumPOM.switchtoPOM();
 		ForumPOM.backreplypost();
 		ForumPOM.Validating();
-		//	Assignment1POM.Courseinfo();
-	//	Assignment1POM.assignmentdetail();
-	//	AssignmentPOM.courseClick1();
-	//	Assignment1POM.Assignments();
-	//	Assignment1POM.Uploaddoc();
-	//	Assignment1POM.Pulldoc();
-	//	Assignment1POM.fileuploadMsg();
-	//	screenShot.captureScreenShot(userName);
 	}
 
 }

@@ -5,13 +5,18 @@ package com.training.medium;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import common.Assert;
+
 public class adminNUPOM {
+private static final String expectedmsg = null;
+
 private WebDriver driver; 
 	
 	public adminNUPOM(WebDriver driver) {
@@ -54,6 +59,10 @@ private WebDriver driver;
 	
 	@FindBy(name ="submit")
 	private WebElement addnewuser;
+	
+	//alert locator
+	@FindBy(xpath="//input[contains@class,'Registration'")
+	private WebElement alret1;
 			
 	public void selectRadio() 
 	{
@@ -110,10 +119,16 @@ private WebDriver driver;
 	
 	Select dropdown = new Select(trainer1);  
 	dropdown.selectByVisibleText("Trainer");
-	
-		
+			
 	}
 	public void sendAdd() {
 		this.addnewuser.click(); 
 	}
+	public void validating() {
+		String expectedmsg;
+		Assert.Equals(this.alret1.getText(),expectedmsg); 
 	}
+	
+
+}
+    
